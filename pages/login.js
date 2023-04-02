@@ -11,9 +11,9 @@ import { getFavourites, getHistory } from "@/lib/userData";
 
 export default function Login(props) {
 	const router = useRouter();
-	const [user, setUser] = useState('');
-	const [password, setPassword] = useState('');
-	const [warning, setWarning] = useState('');
+	const [user, setUser] = useState("");
+	const [password, setPassword] = useState("");
+	const [warning, setWarning] = useState("");
 	const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
 	const [favouritesList, setFavouritesList] = useAtom(favouritesAtom);
 

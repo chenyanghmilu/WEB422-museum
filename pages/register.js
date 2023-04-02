@@ -6,9 +6,9 @@ import { useRouter } from 'next/router';
 
 export default function Register(props) {
 	const router = useRouter();
-	const [user, setUser] = useState('');
-	const [password, setPassword] = useState('');
-	const [password2, setPassword2] = useState('');
+	const [user, setUser] = useState("");
+	const [password, setPassword] = useState("");
+	const [password2, setPassword2] = useState("");
 	const [warning, setWarning] = useState('');
 
 
