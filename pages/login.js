@@ -1,6 +1,6 @@
 import { Card, Form, Button, Alert } from "react-bootstrap";
 import { useState } from 'react';
-import { authenticateUser } from '../lib/authenticate';
+import { authenticateUser } from '@/lib/authenticate';
 import { useRouter } from 'next/router';
 import { useAtom } from 'jotai';
 import { searchHistoryAtom } from '@/store';
